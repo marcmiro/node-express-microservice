@@ -1,7 +1,5 @@
 # ANSWERS
 
----
-
 #### How long did it take to finish the test?
 It took to me near to *5 hours* dedicated to achieve all the objectives.
 
@@ -30,5 +28,3 @@ I chose Nodejs with Express thinking on 2 reasons:
 
 #### What was the most challenging part and why?
 The main challenge for me was the HTTPS part and more preciselly the SSL creation part. As the self-signed is based on each host, I had to investigate how to do it automatically (I never did it before).
-
----

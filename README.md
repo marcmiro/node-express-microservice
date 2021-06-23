@@ -1,7 +1,5 @@
 # README
 
----
-
 #### Software requirements
 You just need to have installed docker and openssl locally. The main script is used only for Unix systems but the Docker part can be used on any system. If you use Windows, you will have to create and add the trusted certificates by yourself manually.
 
@@ -30,5 +28,3 @@ One time you launch the script, as you are going to have the certificates instal
 I chose this solution for two reasons:
 1. Docker and docker-compose is a fast solution to deploy as much times as need a solution. You can test your changes doing only one command and it will build all automatically and really fast thanks to its cache.
 2. If you want to deploy it in production or on a remote environment, you can easily deploy and replicate it thanks to the container solution.
-
----
