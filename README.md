@@ -20,7 +20,7 @@ What the process will do is:
 3. Build the images of each part (web server and web application).
 4. Mount the containers and expose them.
 
-When the process is finished, you can launch: `curl -L "https://localhost/hello"`. If you use HTTP, you will be redirected to HTTPS.
+When the process is finished, you can launch: `curl -L "https://localhost/hello"`. If you use `HTTP`, you will be redirected to `HTTPS`.
 
 ---
 
