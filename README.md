@@ -15,12 +15,14 @@ Before you launch the command, it's important to give execution rights to the fi
 After ensure the first two things, you just have to launch: ./launch.sh
 
 What the process will do is:
-1. Create the self-signed certificate.
+1. Create the self-signed certificate (it will demand your password).
 2. Add the certificate to be trusted by the host.
 3. Build the images of each part (web server and web application).
 4. Mount the containers and expose them.
 
 When the process is finished, you can launch: `curl -L "https://localhost/hello"`. If you use `HTTP`, you will be redirected to `HTTPS`.
+
+One time you launch the script, as you are going to have the certificates installed, you just need to launch the docker-compose commands that you can find on the *launch.sh* file (one to build images without cache and the other to create the containers).
 
 ---
 
