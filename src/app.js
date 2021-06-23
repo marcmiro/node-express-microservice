@@ -3,7 +3,7 @@ const express = require('express');
 
 // Express Initialize
 const app = express();
-const port = 3000;
+const port = 8080;
 
 app.listen(port, () => console.log(`App is up using port ${port}!`));
 
