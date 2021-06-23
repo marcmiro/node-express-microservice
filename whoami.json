@@ -1,0 +1,29 @@
+{
+  "name": "Marc",
+  "lastname": "Miró",
+  "age": 32,
+  "city": "Terrassa",
+  "lived": [
+    "Terrassa",
+    "San Sebastián de los Reyes",
+    "El Molar",
+    "Lille"
+  ],
+  "practises": {
+    "languages": [
+      "catalan",
+      "spanish",
+      "french",
+      "english"
+    ],
+    "sports": [
+      "running",
+      "padel"
+    ]
+  },
+  "passions": [
+    "Tech",
+    "Traveling",
+    "Films/TV Series"
+  ]
+}
