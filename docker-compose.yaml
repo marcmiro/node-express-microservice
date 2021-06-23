@@ -1,5 +1,13 @@
 version: "3.9"
 services:
+  web-server:
+    image: nginx:latest
+    ports: 
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx/conf/:/etc/nginx/conf.d
+      - ./nginx/certs/:/etc/nginx/ssl
   api:
     build: .
     ports:
